@@ -1,0 +1,19 @@
+const calculator = {
+    plus: function ( a,b ) {
+         alert(a + b);
+    },
+    divide: function (a, b ) {
+        alert(a / b);
+    },
+    multiply: function ( a,b ) {
+        alert(a * b);
+    },
+    power: function ( a, b ) {
+        alert(a**b);
+    },
+}
+
+calculator.plus(10 , 5);
+calculator.divide(5 , 10);
+calculator.multiply(10 , 5);
+calculator.power(3 , 2);
